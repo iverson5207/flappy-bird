@@ -320,6 +320,8 @@ var bird = {
   renderRankList: function(){
     var template = '';
     for(var i = 0; i < 8; i++){
+      console.log(this.scoreArr[i].score);
+      console.log(this.scoreArr[i].time);
       var degreeClass = '';
       switch (i) {
         case 0: 
